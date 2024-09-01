@@ -2,7 +2,7 @@
 
 This project is a clone of the Netflix homepage, designed using HTML and CSS. It replicates the user interface of Netflix, allowing users to experience a visually similar homepage with responsive design features that cater to different screen sizes, including mobile devices. The clone features a similar layout to Netflix, including a navbar, a main banner, sections highlighting content, a footer, and a FAQ section.
 
-#LIVE Link
+# LIVE Link
 - **https://net-flix-by-vs.netlify.app/**
 
 ## Table of Contents
