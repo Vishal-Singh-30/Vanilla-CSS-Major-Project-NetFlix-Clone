@@ -2,9 +2,6 @@
 
 This project is a clone of the Netflix homepage, designed using HTML and CSS. It replicates the user interface of Netflix, allowing users to experience a visually similar homepage with responsive design features that cater to different screen sizes, including mobile devices. The clone features a similar layout to Netflix, including a navbar, a main banner, sections highlighting content, a footer, and a FAQ section.
 
-# LIVE Link
-- **https://net-flix-by-vs.netlify.app/**
-
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
@@ -63,18 +60,7 @@ To run this project locally, follow these steps:
 
 ## Screenshots
 
-## Dekstop View
-![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%201%20pc.png?raw=true)
-![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%202%20pc.png?raw=true)
-![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%203%20pc.png?raw=true)
-
-## Mobile View
-![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%201%20mobile.jpg?raw=true)
-![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%202%20mobile.jpg?raw=true)
-![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%203%20mobile.jpg?raw=true)
-![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%205%20mobile.jpg?raw=true)
-
-
+_Add screenshots of the project for visual reference._
 
 ## Credits
 
