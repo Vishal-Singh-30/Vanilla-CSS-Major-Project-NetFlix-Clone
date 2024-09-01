@@ -60,7 +60,18 @@ To run this project locally, follow these steps:
 
 ## Screenshots
 
-_Add screenshots of the project for visual reference._
+## Dekstop View
+![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%201%20pc.png?raw=true)
+![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%202%20pc.png?raw=true)
+![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%203%20pc.png?raw=true)
+
+## Mobile View
+![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%201%20mobile.jpg?raw=true)
+![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%202%20mobile.jpg?raw=true)
+![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%203%20mobile.jpg?raw=true)
+![Alt text](https://github.com/Vishal-Singh-30/Vanilla-CSS-Major-Project-NetFlix-Clone/blob/main/pic%205%20mobile.jpg?raw=true)
+
+
 
 ## Credits
 
