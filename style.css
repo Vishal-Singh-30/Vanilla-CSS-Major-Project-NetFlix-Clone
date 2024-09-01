@@ -1,0 +1,356 @@
+*{
+    /*  making clean slate  */
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    height: 70vh;
+    background-image: url(./assets/images/bg.jpg);
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute; /* to overlap the box over div
+                        parent position - relative , 
+                        child position - absolute 
+                        */
+    top: 0;
+    
+    
+}
+
+.navbar{
+    height: 88px;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img{
+    position: relative;
+    z-index: 10;
+}
+
+.navbar .options {
+    position: relative;
+    z-index: 10;
+}
+
+.box-content{
+    font-family: "Martel Sans", sans-serif;
+    
+    display: flex;
+    height: calc(100% - 88px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 23px;
+}
+
+.box-content> :nth-child(1){   /* > this help to show the imidiate first child */
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.box-content> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box-content> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line-seperation {
+    height: 7px;
+    background-color: rgba(46, 44, 44);
+}
+
+
+.btn-red{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+
+}
+
+
+
+.box-options{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-signin{
+    height: 32px;
+    width: 75px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.btn-getstarted{
+    height: 58px;
+    width: 207px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.drop-down{
+    height: 32px;
+    width: 121px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.email-box{
+    height: 56px;
+    width: 448px;
+    background-color: rgba(18, 18, 18, 0.7);
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 4px;
+    padding-left: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+
+
+.tv-image img{
+    width: 555px;
+    position: relative;
+    top: 10px;
+    z-index: 12;
+    position: relative;
+}
+.tv-image{
+    position: relative;
+}
+
+.tv-image video{
+    position: absolute;
+    top: 75px;
+    right: 22px;
+}
+
+.section-content :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 34px 0px;
+}
+
+.section-content :nth-child(2){
+    font-size: 24px;
+    
+}
+.faq h2 {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.faq-box:hover{
+    transition: all 0.2s ease-out ;
+    background-color: #414141;
+}
+
+.faq-box{
+    display: flex;
+    max-width: 1200px;
+    padding: 14px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    background: #2D2D2D;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.faq-box i{
+    font-size: 34px;
+    font-weight: lighter;
+}
+
+
+.email-caption {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.email-box-2{
+    height: 56px;
+    width: 550px;
+    background-color: rgba(18, 18, 18, 0.7);
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 4px;
+    padding-left: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+}
+
+
+
+.footer .footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    
+}
+
+.bottom-section{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.questions{
+    padding: 34px 0px;
+}
+
+.footer a{
+    font-size: 14px;
+    color: white;
+    
+}
+
+.bottom-select{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+h5{
+    color: rgb(137, 137, 137);
+}
+
+
+@media screen and (max-width: 1300px) {
+    
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        
+    }
+
+}
+
+
+@media screen and (max-width: 1300px) {
+    body {
+        .first{
+            flex-wrap: wrap;
+        }
+
+        .tv-image img{
+            width: 305px;
+            
+        }
+
+        .tv-image video{
+            top: 40px;
+            width: 270px;
+        }
+
+        .box-content> :nth-child(1){   /* > this help to show the imidiate first child */
+            font-size: 32px;
+        }
+        .box-content> :nth-child(2){   /* > this help to show the imidiate first child */
+            font-size: 18px;
+        }
+        .box-content> :nth-child(3){   /* > this help to show the imidiate first child */
+            font-size: 18px;
+        }
+        .navbar{
+            width: 90vw;
+        }
+        .btn-getstarted{
+            height: 45px;
+            width: 104px;
+            font-size: 14px;
+        }
+        .email-box{
+            height: 45px;
+            width: 190px;
+
+        }
+        .email-box-2{
+            height: 45px;
+            width: 250px;
+        }
+        .drop-down{
+             width: 75px;
+        }
+        .btn-signin{
+            width: 60px;
+        }
+        .footer{
+            justify-content: center;
+        }
+        .footer-item{
+            align-items: center;
+            
+        }
+        .footer-item a{
+            text-align: center;
+            
+        }
+    }
+}
