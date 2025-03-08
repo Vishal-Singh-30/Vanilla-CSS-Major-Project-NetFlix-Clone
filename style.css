@@ -203,6 +203,7 @@ body{
 
 .faq-box{
     display: flex;
+    flex-wrap: wrap;
     max-width: 1200px;
     padding: 14px;
     margin: 10px auto;
@@ -220,6 +221,20 @@ body{
     font-weight: lighter;
 }
 
+.outer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.inner-text{
+    width: 100%;
+    padding-top: 20px;
+    font-size: 22px;
+    font-family:inherit;
+    
+}
 
 .email-caption {
     font-size: 18px;
